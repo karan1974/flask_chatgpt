@@ -1,0 +1,3 @@
+# Required Libraries
+flask
+openai
