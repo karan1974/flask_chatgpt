@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html class="style">
+  <head>
+    <title>ChatGPT Web Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>ChatGPT Web Application</h1>
+      <div class="result-box">
+      <p>You asked:</p>
+      <p class="question">{{ message }}</p>
+      <p>The answer is:</p>
+      <p class="answer">{{ answer }}</p>
+      <a href="/" class="clickme">Ask another question</a>
+    </div>
+    </div>
+  </body>
+</html>
